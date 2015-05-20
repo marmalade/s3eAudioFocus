@@ -1,0 +1,36 @@
+# Subproject file for extension s3eAudioFocus.
+#
+# Include this subproject in your App to enable access to the s3eAudioFocus API
+#
+# NOTE: This file was originally written by the extension builder, but will not
+# be overwritten (unless --force is specified) and is intended to be modified.
+
+#
+# Running the extension builder with --platform can cause additions to this file
+# even after modification, to support additional platforms
+
+display_name "Extensions/s3eAudioFocus"
+
+
+
+files
+{
+    ["interface"]
+    (interface)
+    s3eAudioFocus_interface.cpp
+    s3eAudioFocus.defines.txt
+}
+
+defines
+{
+    IW_TRACE_CHANNEL_AUDIOFOCUS_VERBOSE=2
+}
+
+if {{ not defined IW_MKF_IWCRT}}
+    subproject iwutil
+deployments
+{
+    android-external-jars=lib/android/s3eAudioFocus.jar
+    android-so=lib/android/libs3eAudioFocus.so
+    
+}

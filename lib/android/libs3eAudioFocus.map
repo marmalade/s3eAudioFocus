@@ -1,0 +1,135 @@
+Archive member included because of file (symbol)
+
+C:\Marmalade\7.5.0\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+                              release\s3eAudioFocus_platform.os (s3eEdkThreadRunOnOS)
+
+Discarded input sections
+
+ .text          0x00000000       0x14 C:/android-ndk-r9d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+ .bss           0x00000000        0x0 C:/android-ndk-r9d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+ .note.GNU-stack
+                0x00000000        0x0 C:/android-ndk-r9d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+ .group         0x00000000        0x8 release\s3eAudioFocus_platform.os
+ .group         0x00000000        0x8 release\s3eAudioFocus_platform.os
+ .text          0x00000000        0x0 release\s3eAudioFocus_platform.os
+ .data          0x00000000        0x0 release\s3eAudioFocus_platform.os
+ .note.GNU-stack
+                0x00000000        0x0 release\s3eAudioFocus_platform.os
+ .text          0x00000000        0x0 release\s3eAudioFocus.os
+ .data          0x00000000        0x0 release\s3eAudioFocus.os
+ .bss           0x00000000        0x0 release\s3eAudioFocus.os
+ .note.GNU-stack
+                0x00000000        0x0 release\s3eAudioFocus.os
+ .text          0x00000000        0x0 release\s3eAudioFocus_register.os
+ .data          0x00000000        0x0 release\s3eAudioFocus_register.os
+ .bss           0x00000000        0x0 release\s3eAudioFocus_register.os
+ .text._Z24s3eAudioFocusRegisterExtv
+                0x00000000       0x9c release\s3eAudioFocus_register.os
+ .note.GNU-stack
+                0x00000000        0x0 release\s3eAudioFocus_register.os
+ .text          0x00000000        0x0 C:\Marmalade\7.5.0\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .data          0x00000000        0x0 C:\Marmalade\7.5.0\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .bss           0x00000000        0x0 C:\Marmalade\7.5.0\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .text.s3eEdkErrorSetString
+                0x00000000       0x30 C:\Marmalade\7.5.0\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .text.s3eEdkThreadRunOnOSAsync
+                0x00000000       0x30 C:\Marmalade\7.5.0\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:\Marmalade\7.5.0\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+ .text          0x00000000        0x0 C:/android-ndk-r9d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+ .data          0x00000000        0x0 C:/android-ndk-r9d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+ .bss           0x00000000        0x0 C:/android-ndk-r9d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+ .note.GNU-stack
+                0x00000000        0x0 C:/android-ndk-r9d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+
+Memory map
+
+ ** file header
+                0x00000000       0x34
+ ** segment headers
+                0x00000034       0xe0
+
+.interp         0x00000114       0x13
+ ** fill        0x00000114       0x13
+
+.dynsym         0x00000128       0xc0
+ ** dynsym      0x00000128       0xc0
+
+.dynstr         0x000001e8       0xea
+ ** string table
+                0x000001e8       0xea
+
+.hash           0x000002d4       0x44
+ ** hash        0x000002d4       0x44
+
+.rel.dyn        0x00000318       0x20
+ ** dynamic relocs
+                0x00000318       0x20
+
+.rel.plt        0x00000338       0x20
+ ** dynamic relocs
+                0x00000338       0x20
+
+.plt            0x00000358       0x44
+ ** PLT         0x00000358       0x44
+
+.text           0x0000039c      0x454
+ .text.exit     0x0000039c       0x10 C:/android-ndk-r9d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+                0x0000039c                __on_dlclose
+ .text._ZL27s3eEdkAndroidFindClass_realPKc
+                0x000003ac       0xb8 release\s3eAudioFocus_platform.os
+ .text._ZN7_JNIEnv9NewObjectEP7_jclassP10_jmethodIDz
+                0x00000464       0x38 release\s3eAudioFocus_platform.os
+                0x00000464                _JNIEnv::NewObject(_jclass*, _jmethodID*, ...)
+ .text._ZN7_JNIEnv14CallVoidMethodEP8_jobjectP10_jmethodIDz
+                0x0000049c       0x38 release\s3eAudioFocus_platform.os
+                0x0000049c                _JNIEnv::CallVoidMethod(_jobject*, _jmethodID*, ...)
+ .text._Z26s3eAudioFocusInit_platformv
+                0x000004d4      0x19c release\s3eAudioFocus_platform.os
+                0x000004d4                s3eAudioFocusInit_platform()
+ .text._Z31s3eAudioFocusTerminate_platformv
+                0x00000670       0x58 release\s3eAudioFocus_platform.os
+                0x00000670                s3eAudioFocusTerminate_platform()
+ .text._Z35s3eAudioFocusRequestFocuse_platformv
+                0x000006c8       0x50 release\s3eAudioFocus_platform.os
+                0x000006c8                s3eAudioFocusRequestFocuse_platform()
+ .text._Z17s3eAudioFocusInitv
+                0x00000718        0x4 release\s3eAudioFocus.os
+                0x00000718                s3eAudioFocusInit()
+ .text._Z22s3eAudioFocusTerminatev
+                0x0000071c        0x4 release\s3eAudioFocus.os
+                0x0000071c                s3eAudioFocusTerminate()
+ .text.s3eAudioFocusRequestFocuse
+                0x00000720        0x4 release\s3eAudioFocus.os
+                0x00000720                s3eAudioFocusRequestFocuse
+ .text.RegisterExt
+                0x00000724       0x9c release\s3eAudioFocus_register.os
+                0x00000724                RegisterExt
+ .text.s3eEdkThreadRunOnOS
+                0xffffffffffffffff       0x30 C:\Marmalade\7.5.0\s3e\edk\lib\android/libedk.a(edk_helpers.o)
+                0x000007c0                s3eEdkThreadRunOnOS
+
+.rodata         0x000007f0       0x37
+ ** merge strings
+                0x000007f0       0x37
+
+.fini_array     0x00001eec        0x8
+ .fini_array    0x00001eec        0x4 C:/android-ndk-r9d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+ .fini_array    0x00001ef0        0x4 C:/android-ndk-r9d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+
+.init_array     0x00001ef4        0x4
+ .init_array    0x00001ef4        0x4 C:/android-ndk-r9d/platforms/android-14/arch-arm/usr/lib/crtend_so.o
+
+.dynamic        0x00001ef8       0xe0
+ ** dynamic     0x00001ef8       0xe0
+
+.got            0x00001fd8       0x28
+ ** GOT         0x00001fd8        0xc
+ ** GOT PLT     0x00001fe4       0x1c
+
+.data           0x00002000        0x4
+ .data          0x00002000        0x4 C:/android-ndk-r9d/platforms/android-14/arch-arm/usr/lib/crtbegin_so.o
+                0x00002000                __dso_handle
+
+.bss            0x00002004        0x8
+ .bss           0x00002004        0x8 release\s3eAudioFocus_platform.os

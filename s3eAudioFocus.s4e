@@ -1,0 +1,21 @@
+
+
+
+external_header="s3eAudioFocus.h"
+additional_linkage_name="s3eAudioFocus"
+
+
+include:
+
+#include <s3eTypes.h>
+
+
+
+
+functions:
+
+
+void s3eAudioFocusRequestFocuse()
+
+append:
+/** @} */
